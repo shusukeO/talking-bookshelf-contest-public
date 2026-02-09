@@ -1,0 +1,90 @@
+[
+  {
+    "id": "book-001",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "978-0-13-235088-4",
+    "cover": "",
+    "finished_at": "2024-03-15",
+    "private_notes": "Clean Code\nA must-read for every developer. The chapter on meaningful names changed how I think about variable naming. The boy scout rule - always leave the code cleaner than you found it - is something I try to practice daily. Functions should do one thing and do it well.",
+    "link": "[book::Clean Code::book-001]",
+    "language": "en"
+  },
+  {
+    "id": "book-002",
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "cover": "",
+    "finished_at": "2024-06-20",
+    "private_notes": "The Pragmatic Programmer\nLoved the concept of 'tracer bullets' - building end-to-end thin slices of functionality to validate architecture early. DRY principle explained better than anywhere else. The broken windows theory applied to software really resonated with me.",
+    "link": "[book::The Pragmatic Programmer::book-002]",
+    "language": "en"
+  },
+  {
+    "id": "book-003",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "isbn": "978-1-4493-7332-0",
+    "cover": "",
+    "finished_at": "2024-09-10",
+    "private_notes": "Designing Data-Intensive Applications\nThe best technical book I've read. Finally understood the tradeoffs between different database approaches. The chapters on replication and partitioning were eye-opening. Great explanation of eventual consistency and distributed systems challenges.",
+    "link": "[book::Designing Data-Intensive Applications::book-003]",
+    "language": "en"
+  },
+  {
+    "id": "book-004",
+    "title": "リーダブルコード",
+    "author": "Dustin Boswell, Trevor Foucher",
+    "isbn": "978-4-87311-565-8",
+    "cover": "",
+    "finished_at": "2024-01-20",
+    "private_notes": "リーダブルコード\nコードは他の人が最短時間で理解できるように書くべき。変数名に情報を詰め込む技術が参考になった。tmpは短命な変数だけに使う。条件式は左に調査対象、右に比較対象を置く。コメントには意図を書く。",
+    "link": "[book::リーダブルコード::book-004]",
+    "language": "ja"
+  },
+  {
+    "id": "book-005",
+    "title": "ゼロから作るDeep Learning",
+    "author": "斎藤康毅",
+    "isbn": "978-4-87311-758-4",
+    "cover": "",
+    "finished_at": "2024-04-05",
+    "private_notes": "ゼロから作るDeep Learning\nニューラルネットワークの仕組みを一から実装して理解できた。パーセプトロンから多層ネットワークへの発展が面白い。損失関数と勾配降下法の関係がようやく腑に落ちた。高校数学の復習が必要だと痛感。",
+    "link": "[book::ゼロから作るDeep Learning::book-005]",
+    "language": "ja"
+  },
+  {
+    "id": "book-006",
+    "title": "良いコード/悪いコードで学ぶ設計入門",
+    "author": "仙塲大也",
+    "isbn": "978-4-297-12783-1",
+    "cover": "",
+    "finished_at": "2024-07-26",
+    "private_notes": "良いコード/悪いコードで学ぶ設計入門\nストラテジパターンによるコード最適化が実践的。責務を目的を持った各モデルに分離する考え方が身についた。早期returnの徹底、変数のスコープを狭めるなど、日々のコーディングで意識するようになった。",
+    "link": "[book::良いコード/悪いコードで学ぶ設計入門::book-006]",
+    "language": "ja"
+  },
+  {
+    "id": "book-007",
+    "title": "情熱プログラマー",
+    "author": "Chad Fowler",
+    "isbn": "978-4-274-06793-8",
+    "cover": "",
+    "finished_at": "2024-12-27",
+    "private_notes": "情熱プログラマー\nプログラマーのキャリア論として参考になった。一番下手な環境に飛び込むことの大切さ。魚の釣り方を教わることの重要性。ビジネスを理解するエンジニアの価値。ブログを書いてアウトプットする習慣を始めるきっかけになった。",
+    "link": "[book::情熱プログラマー::book-007]",
+    "language": "ja"
+  },
+  {
+    "id": "book-008",
+    "title": "嫌われる勇気",
+    "author": "岸見一郎, 古賀史健",
+    "isbn": "978-4-478-02581-9",
+    "cover": "",
+    "finished_at": "2025-01-15",
+    "private_notes": "嫌われる勇気\nアドラー心理学の入門書。対話形式で読みやすい。課題の分離という考え方が印象的で、他人の評価を気にしすぎない生き方について考えさせられた。承認欲求を否定するのではなく、自分の課題に集中するという視点が新鮮。",
+    "link": "[book::嫌われる勇気::book-008]",
+    "language": "ja"
+  }
+]

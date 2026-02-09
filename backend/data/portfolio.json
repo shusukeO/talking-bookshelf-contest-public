@@ -1,0 +1,33 @@
+{
+  "about": {
+    "name": "Demo User",
+    "tagline": "Software Engineer & Book Lover",
+    "title": "Software Engineer",
+    "location": "Japan",
+    "education": "Computer Science",
+    "current_work": "Building web applications with Go and React",
+    "philosophy": "Learning through reading and building"
+  },
+  "projects": [
+    {
+      "name": "TB: Talking Bookshelf",
+      "description": "An interactive bookshelf character that talks about its owner's reading experiences using AI",
+      "tech": ["React", "Go", "Gemini API", "Cloud Run"],
+      "highlight": true,
+      "link": "[url::TB: Talking Bookshelf::https://github.com/example/talking-bookshelf]"
+    }
+  ],
+  "skills": {
+    "backend": ["Go", "TypeScript", "JavaScript", "SQL"],
+    "frontend": ["React", "TypeScript", "HTML/CSS"],
+    "infrastructure": ["GCP", "Docker", "GitHub Actions"],
+    "concepts": ["Clean Architecture", "DDD", "Microservices"]
+  },
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/example",
+      "link": "[url::GitHub::https://github.com/example]"
+    }
+  ]
+}

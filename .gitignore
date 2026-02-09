@@ -1,0 +1,46 @@
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# 依存関係
+node_modules/
+
+# ビルド
+dist/
+build/
+tmp/
+
+# Go
+backend/tmp/
+backend/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MCP / Serena
+.mcp.json
+.serena/
+
+# デバッグ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# テスト
+coverage/
+
+# TypeScript
+*.tsbuildinfo
