@@ -2,6 +2,8 @@
 
 AI を活用した対話型本棚キャラクター。オーナーの読書体験を会話を通じて紹介します。
 
+本番サイト: https://talkingbookshelf.com/
+
 > このリポジトリは [Zenn 第4回 Agentic AI Hackathon with Google Cloud](https://zenn.dev/hackathons/google-cloud-japan-ai-hackathon-vol4) の審査用公開リポジトリです。
 > 本番 UI（本棚キャラクター・顔アニメーション等）は含まず、審査用の簡易チャット UI が付属しています
 
