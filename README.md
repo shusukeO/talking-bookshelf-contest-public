@@ -27,10 +27,9 @@ graph TB
         Tools --> GetReadingStats["get_reading_stats"]
         Agent --> Sanitize[サニタイズ層<br/>外部データ内の命令パターン無害化]
         Agent -->|レスポンス| Validation[出力検証パイプライン]
-        Validation --> BookAnnotation["BookAnnotationValidator<br/>書籍リンク検証"]
-        Validation --> ContentValidator["ContentValidator<br/>メモ準拠検証"]
         Validation --> PromptLeak["PromptLeakValidator<br/>情報漏洩検出"]
-        Validation --> Corrector["ResponseCorrector<br/>問題回答の再生成"]
+        Validation --> BookAnnotation["BookAnnotationValidator<br/>書籍リンク検証"]
+        Validation -->|検証失敗時| Corrector["ResponseCorrector<br/>問題回答の再生成"]
     end
 
     Agent -->|API Call| Gemini["Gemini 2.5 Flash"]
@@ -71,10 +70,14 @@ graph TB
 
 ハルシネーション防止と品質担保のための多段検証パイプラインです。
 
-1. BookAnnotationValidator: `[book::タイトル::id]` リンクの存在・タイトル一致を検証
-2. ContentValidator: 回答が実際の書籍メモに基づいているか LLM で検証
-3. PromptLeakValidator: システムプロンプトや内部情報の漏洩を検出
-4. ResponseCorrector: 問題のある回答を再生成
+**Validators（検証）**
+
+1. PromptLeakValidator: システムプロンプトや内部情報の漏洩を検出
+2. BookAnnotationValidator: `[book::タイトル::id]` リンクの存在・タイトル一致を検証
+
+**ResponseCorrector（修正）**
+
+検証に失敗した場合、ResponseCorrectorが自動的に回答を再生成します（Gemini 2.5 Flash Lite使用）
 
 ### セキュリティ（多層防御）
 
